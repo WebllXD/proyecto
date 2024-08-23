@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import apiUrl from '../apiUrl';
-import '../styles/login.css';
+import '../styles/SignaturePage.css';
 
 const UserSignature: React.FC = () => {
   const [signature, setSignature] = useState<string | null>(null);

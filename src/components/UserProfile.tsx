@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import apiUrl from '../apiUrl';
+import '../styles/profile.css';
+
 
 const UserProfile: React.FC = () => {
   const [user, setUser] = useState({

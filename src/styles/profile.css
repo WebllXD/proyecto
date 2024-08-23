@@ -1,0 +1,92 @@
+/* Contenedor principal del perfil */
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado del perfil */
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info h1 {
+    font-size: 28px;
+    color: #1c3583;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #555555;
+}
+
+/* Sección de perfil */
+.profile-section h2 {
+    font-size: 22px;
+    color: #1c3583;
+    margin-bottom: 20px;
+}
+
+/* Tarjeta del perfil */
+.profile-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas de formulario */
+.profile-card .form-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Inputs del formulario */
+.profile-card .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Botón de actualizar */
+.profile-card .btn-primary {
+    width: 100%;
+    background-color: #1c3583;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.profile-card .btn-primary:hover {
+    background-color: #14255c;
+}
+
+/* Mensaje de error */
+.error-message {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Estado de carga */
+.profile-container.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}

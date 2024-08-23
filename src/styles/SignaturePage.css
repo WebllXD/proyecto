@@ -1,46 +1,103 @@
-/* SignaturePage.css */
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
+
+
+/* Contenedor principal */
 .container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-  }
+  max-width: 120px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Barras de navegación */
+.navbar {
+  background-color: #1c3583;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #14255c;
+  color: white;
+}
+
+/* Botones */
+button {
+  background-color: #1c3583;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #14255c;
+}
+
+/* Formularios */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 8px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  width: -10px;
   
-  h1 {
-    color: #333;
-  }
-  
-  .no-signature, .has-signature {
-    margin-top: 20px;
-  }
-  
-  .button {
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
-  
-  .loading {
-    color: #555;
-    font-size: 18px;
-  }
-  
-  .error {
-    color: red;
-    font-size: 16px;
-    margin: 20px 0;
-  }
-  
+}
+
+.signature-container{
+  max-width: 1000px; /* Ajusta el ancho máximo del contenedor */
+  margin: 0 auto;
+  padding: 100px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+p {
+  font-size: 14px;
+  color: #333333;
+  overflow-wrap: break-word; /* Aplica el ajuste de palabras largas en el texto */
+}
+
+
+
+
+/* Secciones */
+section {
+  margin: 20px 0;
+}
+
+
