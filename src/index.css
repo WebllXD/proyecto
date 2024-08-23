@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img{
+  width: 10px;
+}
+
+:root {
+  --primary-color: #556bae;
+  --secondary-color: #5A6B8C;
+  --accent-color: #1E82D9;
+  --background-color: #F1F5FC;
+  --text-color: #0D0D0D;
+  --red: #f02828;
+}
+
+.body-container{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.footer {
+  background-color: var(--background-color);
+  padding: 20px;
+  text-align: center;
+  color: var(--text-color);
+  border-top: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.footer > * {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.links li {
+  margin-right: 20px;
+}
+
+.links a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #23527c;
+}
+
+
+
+
+.login-body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  width: 400px;
+  color: var(--text-color);
+}
+
+.login-form.loading {
+  cursor: wait;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.login-form .alert {
+  text-align: center;
+  color: white;
+  background-color: var(--red);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.login-form .form-control {
+  margin-bottom: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--text-color);
+}
+
+.login-form .form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+.login-form .btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form .btn:hover {
+  background-color: var(--accent-color);
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.profile-info p {
+  margin: 9px 0;
+  color: #666;
+}
+
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.profile-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.profile-card {
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  border-color: var(--text-color);
+  padding: 15px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.profile-card p {
+  color: #555;
+}
+
+.profile-card .form-control {
+  margin-bottom: 10px;
+}
+
+.profile-card .btn {
+  margin-top: 10px;
+}
